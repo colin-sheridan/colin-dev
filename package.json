@@ -1,5 +1,6 @@
 {
   "name": "colin-dev",
+  "homepage" : "http://colinsheridan.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
