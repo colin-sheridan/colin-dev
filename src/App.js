@@ -13,6 +13,7 @@ function App() {
         <div className="App-links">
           <Link linkText = {'github'} linkURL = {'https://github.com/colin-sheridan'}/>
           <Link linkText = {'insta'} linkURL = {'https://www.instagram.com/idiot_radar/?hl=en'}/>
+          <Link linkText = {'email'} linkURL = {'mailto:colin@colinsheridan.dev'}/>
         </div>
       </div>
     </div>
