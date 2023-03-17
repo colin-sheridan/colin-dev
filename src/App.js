@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/header.js';
+import Link from './components/link.js';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="App">
+        <Header />
+        <div className="App-links">
+          <Link linkText = {'github'} linkURL = {'https://github.com/colin-sheridan'}/>
+          <Link linkText = {'insta'} linkURL = {'https://www.instagram.com/idiot_radar/?hl=en'}/>
+        </div>
+      </div>
     </div>
   );
 }
